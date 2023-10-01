@@ -3,12 +3,6 @@ body {
     margin: 0px;
     color:black;       
     background-color: aliceblue;  
-}
- 
-.first{
-        background-color:lightblue;
-        height:10px;                     
-}
 
 p {
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
