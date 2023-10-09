@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #8ec6a2;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header#top {
+    margin: 0;
+    padding: 1rem 0 0.5rem 0;
+    background-color: black;
+}
+
+img#logo {
+    display: block;
+    max-width: 90%;
+    margin: 1rem auto;
+}
+
+nav {
+    margin: 1rem auto 0.5rem auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 90%;
+    min-width: 80%;
+    margin: 1rem auto 0.5rem auto;
+    padding: 0.5rem 1rem;
+}
+
+nav li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: #8ec6a2;
+}
+
+img#workshop {
+    width: 100%;
+}
+
+section {
+    max-width: 95%;
+    margin: 1rem auto;
+}
+
+section#introbox {
+    border: 4px solid black;
+}
+
+article#intro {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 1rem 1rem 3rem 1rem;
+    font-style: italic;
+}
+
+section.mainblocks {
+    margin-top: 4rem;  
+}
+
+section#members {
+    text-align: center;
+}
+
+ul#memberslist {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    margin-block: 1rem auto;
+    margin-inline: auto;
+    padding: 0.5rem 1rem;
+}
+
+ul#memberslist li {
+    border: 4px solid black;
+    margin: 0.5rem 1rem;
+    list-style: none;
+    padding: 0.5rem 1rem;
+}
+
+ul#memberslist li:hover {
+    background-color: #8ec6a2;
+}
+
+ul#memberslist li  a {
+    color: #ed259b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* section#studio {
+
+} */
+
+figure {
+    width: 100%;
+    margin: 0 auto;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+section#events figure {
+    margin: 2rem auto;
+}
+
+header#showcase {
+    width: 100%;
+    margin: 4rem 0;
+    background-color: black;
+    padding: 2rem 0;
+
+}
+
+
+article {
+    margin: 4rem auto;
+}
+
+div.textbox {
+    margin: 2rem auto;
+    padding: 5rem 2rem;
+    border: 4px solid #ed259b;
+}
+
+div.textbox p {
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+div.textbox p strong {
+    font-size: 1.3em;
+}
+
+footer {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+footer a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ed259b;
+}
